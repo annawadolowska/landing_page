@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*to see the outlines of divs */
+
+html, body{
+	height:100%;
+}
+
+#header{
+	height:180px;
+	width:100%;
+	background: url('linear-gradient.png') 0 0 repeat-x;
+background: -webkit-linear-gradient(#939389, #a5a5a2);
+background:    -moz-linear-gradient(#939389, #a5a5a2);
+background:     -ms-linear-gradient(#939389, #a5a5a2);
+background:      -o-linear-gradient(#939389, #a5a5a2);
+background:         linear-gradient(#939389, #a5a5a2);
+}
+
+ul{
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#main_menu li{
+float:right;
+padding: 30px;
+font-size: 18px;
+font-family: Verdana,serif;
+
+}
+
+
+.menu{
+color:#fff;
+width:100px;
+height:100px;
+display:block;
+text-align: center;
+line-height: 100px;
+background: url('linear-gradient.png') 0 0 repeat-x;
+background: -webkit-linear-gradient(#32302f, #6b6259);
+background:    -moz-linear-gradient(#32302f, #6b6259);
+background:     -ms-linear-gradient(#32302f, #6b6259);
+background:      -o-linear-gradient(#32302f, #6b6259);
+background:         linear-gradient(#32302f, #6b6259);
+border-radius: 50%;
+border:1px solid #e19d59;
+}
+
+
+#main_menu a{
+	text-decoration: none;
+}
+
+	#main_menu a:hover{
+	color:#dbb691;
+}
+
+#logo img{
+	position:absolute;
+	top:40px;
+	
+}
+
+#main{
+	width:900px;
+	height:360px;
+	margin:0 auto;
+}
+
+#left_content{
+	width:20%;
+	height:200px;
+	float:left;
+	margin:100px;
+	
+
+
+}
+.left_text{
+	font-size: 30px;
+	font-weight: bold;
+	color:#302c28;
+	font-family: Arial, Century;
+
+}
+.left_description{
+	font-size: 18px;
+	color:#3f3a34;
+
+}
+
+#right_content{
+	width:20%;
+	height:200px;
+	float: right;
+	margin:100px;
+
+		
+
+
+}
+.right_text{
+	font-size: 30px;
+	font-weight: bold;
+	color:#fec46c;
+	font-family: Arial, Century;
+
+}
+.right_description{
+	font-size: 18px;
+	color:#3f3a34;
+
+}
+
+.go_left{
+	width:50px;
+	height:50px;
+	background-color: #302c28;
+	border-radius: 50%;
+	padding: 3px;
+	margin:50px;
+	
+	
+
+}
+
+.go_right{
+	width:50px;
+	height:50px;
+	background-color: #fec46c;
+	border-radius: 50%;
+	padding: 3px;
+	margin:50px;
+	
+}
+
+.go_left:hover{
+	background-color:#fec46c;
+}
+.go_right:hover{
+background-color: #302c28;
+}
+
+#main_images{
+width:1000px;
+height:400px;
+margin: 0 auto;
+
+
+}
+
+.code{
+	float:left;
+
+
+	
+}
+.art{
+	float:right;
+	}
+#footer_wrapper{
+	height:160px;
+	background: url(img/clouds_footer.png) repeat-x;
+	background-color: #939389;
+
+	
+}
+#words{
+
+position: relative;
+text-align: center;
+margin-bottom:-125px;
+
+
+}
+	.art{
+		margin-top: -20px;
+	}
